@@ -1,4 +1,3 @@
-console.log('Happy developing ✨')
 posició = [1,2,3,4,5,6,7,8]
 colors = ['red','blue','yellow','green','purple','pink','orange','black']
 
