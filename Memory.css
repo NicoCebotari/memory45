@@ -1,47 +1,47 @@
-.red{
+#red{
     background-color: red;
     width: 100px;
     border-radius: 20px;
     height: 100px;
     align-content: center;
 }
-.green{
+#green{
     background-color: lawngreen;
     width: 100px;
     border-radius: 20px;
     height: 100px;
 }
-.yellow{
+#yellow{
     background-color: #fff721;
     width: 100px;
     border-radius: 20px;
     height: 100px;
 }
-.blue{
+#blue{
     background-color: blue;
     width: 100px;
     border-radius: 20px;
     height: 100px;
 }
-.black{
+#black{
     background-color: black;
     width: 100px;
     border-radius: 20px;
     height: 100px;
 }
-.purple{
+#purple{
     background-color: purple;
     width: 100px;
     border-radius: 20px;
     height: 100px;
 }
-.pink{
+#pink{
     background-color: hotpink;
     width: 100px;
     height: 100px;
     border-radius: 20px;
 }
-.orange{
+#orange{
     background-color: orange;
     width: 100px;
     border-radius: 20px;
@@ -58,7 +58,7 @@
     margin: 300px;
     padding: 200px 200px;
 }
-.botons:active,
-.active{
+.color-button.active {
     filter: brightness(125%);
 }
+
