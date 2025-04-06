@@ -1,64 +1,92 @@
-#red{
-    background-color: red;
-    width: 100px;
-    border-radius: 20px;
-    height: 100px;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
     align-content: center;
 }
-#green{
-    background-color: lawngreen;
-    width: 100px;
-    border-radius: 20px;
-    height: 100px;
-}
-#yellow{
-    background-color: #fff721;
-    width: 100px;
-    border-radius: 20px;
-    height: 100px;
-}
-#blue{
-    background-color: blue;
-    width: 100px;
-    border-radius: 20px;
-    height: 100px;
-}
-#black{
-    background-color: black;
-    width: 100px;
-    border-radius: 20px;
-    height: 100px;
-}
-#purple{
-    background-color: purple;
-    width: 100px;
-    border-radius: 20px;
-    height: 100px;
-}
-#pink{
-    background-color: hotpink;
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-}
-#orange{
-    background-color: orange;
-    width: 100px;
-    border-radius: 20px;
-    height: 100px;
-}
-.titol{
-    font-family: 'Merriweather', Serif;
-    place-items: center;
-    width: 200px;
-    display: inline-grid;
+
+#status {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 
 }
-.botons{
-    margin: 300px;
-    padding: 200px 200px;
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    justify-content: center;
 }
-.color-button.active {
-    filter: brightness(125%);
+
+.color-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+
+#red {
+    background: #e74c3c;
+}
+
+#yellow {
+    background: #f1c40f;
+}
+
+#blue {
+    background: #3498db;
+}
+
+#green {
+    background: #2ecc71;
+}
+
+#orange {
+    background: #e67e22;
+}
+
+#purple {
+    background: #9b59b6;
+}
+
+#cyan {
+    background: #1abc9c;
+}
+
+#pink {
+    background: #e056fd;
+}
+
+
+.active {
+    filter: brightness(2.0);
+    transform: scale(1.1);
+}
+
+#start-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background: darkred;
 }
 
